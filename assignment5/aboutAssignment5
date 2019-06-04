@@ -1,0 +1,25 @@
+- Please use meaningful name for your variables and functions
+- Try to reuse your solutions as much as possible.
+- For each of the following problem you need to
+o Define a function
+o Add comments for the functions as discussed in the lecture
+o For all test cases you have already written for your algorithm, write a function call inside the main function
+- Define a main function
+- Call the functions inside the main function
+- If the function you implement for a question is big, please try to break down to multiple functions.
+
+
+- 変数や関数にはわかりやすい名前を付けてください
+ - 可能な限りあなたの解決策を再利用するようにしてください。
+ - 以下の問題のそれぞれに対してあなたがする必要があります
+関数を定義する
+o講義で議論されたように機能にコメントを追加する
+oあなたがあなたのアルゴリズムのためにすでに書いたすべてのテストケースのために、メイン関数の中に関数呼び出しを書く
+ - 主な機能を定義する
+ - メイン関数内の関数を呼び出す
+ - 質問に対して実装する機能が大きい場合は、複数の機能に分割してみてください。
+
+
+ Due: 6:30pm, Tuesday, June 4th, 2019
+
+
