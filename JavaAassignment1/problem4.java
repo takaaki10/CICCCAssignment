@@ -43,19 +43,21 @@ public class problem4 {
         System.out.println("ave: " + ave);
 
         List<Integer> devlist = new ArrayList<Integer>();   // standard deviation
-        for (int i = 0; i <= cnt; i++) {
-            int deviation = numlist.get(i) - ave;
+        for (int i : numlist) {
+            int num1 = i;
+            int deviation = num1 - ave;
             devlist.add(deviation);
         }
         int devsq = 0;
         int y = 0;
         double avedevsq = 0;
-        for (int j = 0; j <= cnt; j++) {
-            y = devlist.get(j) * devlist.get(j);
+        for (int j : devlist) {
+            int num2 = j;
+            y = num2 * num2;
             devsq = devsq + y;
         }
         avedevsq = (double)devsq / cnt;
         double std = Math.pow(avedevsq,0.5);
-        System.out.println(devlist);
+        System.out.println(std);
     }
 }
