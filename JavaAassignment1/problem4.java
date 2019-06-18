@@ -58,6 +58,6 @@ public class problem4 {
         }
         avedevsq = (double)devsq / cnt;
         double std = Math.pow(avedevsq,0.5);
-        System.out.println(std);
+        System.out.println("std: " + std);
     }
 }
